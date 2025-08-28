@@ -22,7 +22,7 @@
     #elif defined(USE_FSPI_PORT)
       SPIClass spi = SPIClass(FSPI);
     #else // use FSPI port
-      SPIClass& spi = SPI;
+      SPIClass& spi = SPI2;
     #endif
   #endif
 #endif
